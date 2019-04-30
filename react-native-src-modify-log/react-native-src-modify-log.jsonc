@@ -1,0 +1,17 @@
+{
+  "react-native-scrollable-tab-view": {
+    "version": "^0.8.0",
+    "logs": [
+      {
+        "ctx": "修复初次加载Tabbar无法选中第一项",
+        "author": "xbr",
+        "link": "https://github.com/happypancake/react-native-scrollable-tab-view/pull/832/commits/8dd9762cc6b3c32753c0bfd8dbc891faa10d2671"
+      },{
+        "ctx":"优化按钮点击动画（去除动画）避免卡顿",
+        "author":"xbr",
+        "link":""
+      }
+      
+    ]
+  }
+}
