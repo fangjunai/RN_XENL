@@ -11,7 +11,7 @@ InvokeRequest = (url, method, opts) => {
       clienturi: '/',
       appversion: '1.0',
       'Content-Type': 'application/x-www-form-urlencoded',
-      uuid: '2180630160212erxdzhzpzm25jnfh0000000' //小程序需要
+      uuid: '2180630160212erxdzhzpzm25jnfh0000000'
     },
     timeout: 15,
     method: method || 'GET'
@@ -38,13 +38,7 @@ InvokeRequest = (url, method, opts) => {
       }
       // 弹出系统alert
       Toast.Long('not success:' + JSON.stringify(res));
-      console.warn(
-        JSON.stringify(res || {}) +
-          '\n ' +
-          url +
-          '\n' +
-          JSON.stringify(opts.data || {})
-      );
+      console.warn(JSON.stringify(res || {}) + '\n ' + url + '\n' + JSON.stringify(opts.data || {}));
       return null;
     })
     .catch(err => {
